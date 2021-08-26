@@ -1,0 +1,6 @@
+framework module Pods_RTMPFramework_RTMPFrameworkTests {
+  umbrella header "Pods-RTMPFramework-RTMPFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

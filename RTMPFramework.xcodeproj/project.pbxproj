@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1883DEFE26D67DEB0087FED9 /* RTMPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883DEF426D67DEA0087FED9 /* RTMPFramework.framework */; };
+		1883DF0326D67DEB0087FED9 /* RTMPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883DF0226D67DEB0087FED9 /* RTMPFrameworkTests.swift */; };
+		1883DF0526D67DEB0087FED9 /* RTMPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1883DEF726D67DEA0087FED9 /* RTMPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1883DF1026D67E0B0087FED9 /* RTMPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883DF0E26D67E0B0087FED9 /* RTMPViewController.swift */; };
+		1883DF1126D67E0B0087FED9 /* RTMPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883DF0E26D67E0B0087FED9 /* RTMPViewController.swift */; };
+		1883DF1226D67E0B0087FED9 /* RTMPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1883DF0F26D67E0B0087FED9 /* RTMPViewController.xib */; };
+		1883DF1326D67E0B0087FED9 /* RTMPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1883DF0F26D67E0B0087FED9 /* RTMPViewController.xib */; };
+		873357738B9BD0C800683090 /* Pods_RTMPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA165C176431C8934614788B /* Pods_RTMPFramework.framework */; };
+		F7B64D2C77133E3F5CEF8FA0 /* Pods_RTMPFramework_RTMPFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E929A784AB70B4F3B5DC67FD /* Pods_RTMPFramework_RTMPFrameworkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1883DEFF26D67DEB0087FED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1883DEEB26D67DEA0087FED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1883DEF326D67DEA0087FED9;
+			remoteInfo = RTMPFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7568193249010F6364B756 /* Pods-RTMPFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPFramework.release.xcconfig"; path = "Target Support Files/Pods-RTMPFramework/Pods-RTMPFramework.release.xcconfig"; sourceTree = "<group>"; };
+		0CAE8EBE846046ADF1DB9F5F /* Pods-RTMPFramework-RTMPFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPFramework-RTMPFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-RTMPFramework-RTMPFrameworkTests/Pods-RTMPFramework-RTMPFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		1883DEF426D67DEA0087FED9 /* RTMPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTMPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883DEF726D67DEA0087FED9 /* RTMPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPFramework.h; sourceTree = "<group>"; };
+		1883DEF826D67DEA0087FED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1883DEFD26D67DEB0087FED9 /* RTMPFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTMPFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883DF0226D67DEB0087FED9 /* RTMPFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTMPFrameworkTests.swift; sourceTree = "<group>"; };
+		1883DF0426D67DEB0087FED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1883DF0E26D67E0B0087FED9 /* RTMPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTMPViewController.swift; sourceTree = "<group>"; };
+		1883DF0F26D67E0B0087FED9 /* RTMPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RTMPViewController.xib; sourceTree = "<group>"; };
+		18C0DA3526D6B2F200E110F8 /* HaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADAB6EC541C9A9422206914 /* Pods-RTMPFramework-RTMPFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPFramework-RTMPFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-RTMPFramework-RTMPFrameworkTests/Pods-RTMPFramework-RTMPFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E929A784AB70B4F3B5DC67FD /* Pods_RTMPFramework_RTMPFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMPFramework_RTMPFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA165C176431C8934614788B /* Pods_RTMPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA45BFC1C09244FB85D81102 /* Pods-RTMPFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTMPFramework.debug.xcconfig"; path = "Target Support Files/Pods-RTMPFramework/Pods-RTMPFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1883DEF126D67DEA0087FED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873357738B9BD0C800683090 /* Pods_RTMPFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883DEFA26D67DEB0087FED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DEFE26D67DEB0087FED9 /* RTMPFramework.framework in Frameworks */,
+				F7B64D2C77133E3F5CEF8FA0 /* Pods_RTMPFramework_RTMPFrameworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1883DEEA26D67DEA0087FED9 = {
+			isa = PBXGroup;
+			children = (
+				1883DEF626D67DEA0087FED9 /* RTMPFramework */,
+				1883DF0126D67DEB0087FED9 /* RTMPFrameworkTests */,
+				1883DEF526D67DEA0087FED9 /* Products */,
+				4A05C200DBDA3BBF926B1764 /* Pods */,
+				734305EC46DF0CBF70AC3F4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1883DEF526D67DEA0087FED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1883DEF426D67DEA0087FED9 /* RTMPFramework.framework */,
+				1883DEFD26D67DEB0087FED9 /* RTMPFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1883DEF626D67DEA0087FED9 /* RTMPFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1883DEF726D67DEA0087FED9 /* RTMPFramework.h */,
+				1883DF0E26D67E0B0087FED9 /* RTMPViewController.swift */,
+				1883DF0F26D67E0B0087FED9 /* RTMPViewController.xib */,
+				1883DEF826D67DEA0087FED9 /* Info.plist */,
+			);
+			path = RTMPFramework;
+			sourceTree = "<group>";
+		};
+		1883DF0126D67DEB0087FED9 /* RTMPFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1883DF0226D67DEB0087FED9 /* RTMPFrameworkTests.swift */,
+				1883DF0426D67DEB0087FED9 /* Info.plist */,
+			);
+			path = RTMPFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4A05C200DBDA3BBF926B1764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA45BFC1C09244FB85D81102 /* Pods-RTMPFramework.debug.xcconfig */,
+				0B7568193249010F6364B756 /* Pods-RTMPFramework.release.xcconfig */,
+				3ADAB6EC541C9A9422206914 /* Pods-RTMPFramework-RTMPFrameworkTests.debug.xcconfig */,
+				0CAE8EBE846046ADF1DB9F5F /* Pods-RTMPFramework-RTMPFrameworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		734305EC46DF0CBF70AC3F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C0DA3526D6B2F200E110F8 /* HaishinKit.framework */,
+				EA165C176431C8934614788B /* Pods_RTMPFramework.framework */,
+				E929A784AB70B4F3B5DC67FD /* Pods_RTMPFramework_RTMPFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1883DEEF26D67DEA0087FED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DF0526D67DEB0087FED9 /* RTMPFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1883DEF326D67DEA0087FED9 /* RTMPFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883DF0826D67DEB0087FED9 /* Build configuration list for PBXNativeTarget "RTMPFramework" */;
+			buildPhases = (
+				77B8810313DC163314C79ED5 /* [CP] Check Pods Manifest.lock */,
+				1883DEEF26D67DEA0087FED9 /* Headers */,
+				1883DEF026D67DEA0087FED9 /* Sources */,
+				1883DEF126D67DEA0087FED9 /* Frameworks */,
+				1883DEF226D67DEA0087FED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTMPFramework;
+			productName = RTMPFramework;
+			productReference = 1883DEF426D67DEA0087FED9 /* RTMPFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1883DEFC26D67DEB0087FED9 /* RTMPFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883DF0B26D67DEB0087FED9 /* Build configuration list for PBXNativeTarget "RTMPFrameworkTests" */;
+			buildPhases = (
+				A032641A8D2F264D9E8362B1 /* [CP] Check Pods Manifest.lock */,
+				1883DEF926D67DEB0087FED9 /* Sources */,
+				1883DEFA26D67DEB0087FED9 /* Frameworks */,
+				1883DEFB26D67DEB0087FED9 /* Resources */,
+				071B39966C5280B4CD1C64CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1883DF0026D67DEB0087FED9 /* PBXTargetDependency */,
+			);
+			name = RTMPFrameworkTests;
+			productName = RTMPFrameworkTests;
+			productReference = 1883DEFD26D67DEB0087FED9 /* RTMPFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1883DEEB26D67DEA0087FED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1883DEF326D67DEA0087FED9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					1883DEFC26D67DEB0087FED9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1883DEEE26D67DEA0087FED9 /* Build configuration list for PBXProject "RTMPFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1883DEEA26D67DEA0087FED9;
+			productRefGroup = 1883DEF526D67DEA0087FED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1883DEF326D67DEA0087FED9 /* RTMPFramework */,
+				1883DEFC26D67DEB0087FED9 /* RTMPFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1883DEF226D67DEA0087FED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DF1226D67E0B0087FED9 /* RTMPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883DEFB26D67DEB0087FED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DF1326D67E0B0087FED9 /* RTMPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		071B39966C5280B4CD1C64CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RTMPFramework-RTMPFrameworkTests/Pods-RTMPFramework-RTMPFrameworkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RTMPFramework-RTMPFrameworkTests/Pods-RTMPFramework-RTMPFrameworkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RTMPFramework-RTMPFrameworkTests/Pods-RTMPFramework-RTMPFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B8810313DC163314C79ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTMPFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A032641A8D2F264D9E8362B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RTMPFramework-RTMPFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1883DEF026D67DEA0087FED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DF1026D67E0B0087FED9 /* RTMPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883DEF926D67DEB0087FED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883DF0326D67DEB0087FED9 /* RTMPFrameworkTests.swift in Sources */,
+				1883DF1126D67E0B0087FED9 /* RTMPViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1883DF0026D67DEB0087FED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1883DEF326D67DEA0087FED9 /* RTMPFramework */;
+			targetProxy = 1883DEFF26D67DEB0087FED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1883DF0626D67DEB0087FED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1883DF0726D67DEB0087FED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1883DF0926D67DEB0087FED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA45BFC1C09244FB85D81102 /* Pods-RTMPFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6TGGG3EH2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RTMPFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codon.masterpiece.RTMPFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1883DF0A26D67DEB0087FED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7568193249010F6364B756 /* Pods-RTMPFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L6TGGG3EH2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RTMPFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codon.masterpiece.RTMPFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1883DF0C26D67DEB0087FED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADAB6EC541C9A9422206914 /* Pods-RTMPFramework-RTMPFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6TGGG3EH2;
+				INFOPLIST_FILE = RTMPFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codon.masterpiece.RTMPFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1883DF0D26D67DEB0087FED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAE8EBE846046ADF1DB9F5F /* Pods-RTMPFramework-RTMPFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6TGGG3EH2;
+				INFOPLIST_FILE = RTMPFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codon.masterpiece.RTMPFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1883DEEE26D67DEA0087FED9 /* Build configuration list for PBXProject "RTMPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883DF0626D67DEB0087FED9 /* Debug */,
+				1883DF0726D67DEB0087FED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883DF0826D67DEB0087FED9 /* Build configuration list for PBXNativeTarget "RTMPFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883DF0926D67DEB0087FED9 /* Debug */,
+				1883DF0A26D67DEB0087FED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883DF0B26D67DEB0087FED9 /* Build configuration list for PBXNativeTarget "RTMPFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883DF0C26D67DEB0087FED9 /* Debug */,
+				1883DF0D26D67DEB0087FED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1883DEEB26D67DEA0087FED9 /* Project object */;
+}
